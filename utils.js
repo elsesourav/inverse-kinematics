@@ -1,8 +1,9 @@
 "use strict"
 const cvsw = window.innerWidth;
-const cvsh = 620;
+const cvsh = window.innerHeight;
 // const cvsw = 350;
 // const cvsh = 620;
+
 const cvs = document.createElement("canvas");
 document.body.appendChild(cvs);
 cvs.setAttribute("width", cvsw);
